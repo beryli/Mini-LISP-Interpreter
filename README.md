@@ -9,11 +9,11 @@ This project is implemented by PLY (Python Lex-Yacc).
 ## About The Project
 Example input:
 ```lisp
-(1 + 2) * 3
+(print-num (* (+ 1 2) 3))
 ```
 Example output:
 ```lisp
-(* (+ 1 2) 3)
+9
 ```
 All the following features are completed:
 ![Basic Features](https://i.imgur.com/Nklw0uG.png)
@@ -32,19 +32,21 @@ Change directory to project folder
 ``` bash
     cd Mini-LISP-Interpreter
 ```
-python yacc.py
-   
+Run the program
+``` bash
+    python yacc.py
+```
+
 
 <!-- REFERENCES -->
 ## References
 ply:
- -  https://www.dabeaz.com/ply/ply.html
- -  https://github.com/jjconti/mini-lisp
- -  https://github.com/Josiastech/ply
- -  https://www.drdobbs.com/web-development/prototyping-interpreters-using-python-le/184405580#l1
+* https://www.dabeaz.com/ply/ply.html
+* https://github.com/jjconti/mini-lisp
+* https://github.com/Josiastech/ply
+* https://www.drdobbs.com/web-development/prototyping-interpreters-using-python-le/184405580#l1
 
 lisp:
- -  https://github.com/ramadepo/Ncu-Homework/tree/master/%E7%B7%A8%E8%AD%AF%E5%99%A8(Compiler)/FinalProject
- -  https://norvig.com/lispy.html
- -  https://schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-7.html#%_chap_4
-<!-- * [Text](https:URL) -->
+* https://github.com/ramadepo/Ncu-Homework/tree/master/%E7%B7%A8%E8%AD%AF%E5%99%A8(Compiler)/FinalProject
+* https://norvig.com/lispy.html
+* https://schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-7.html#%_chap_4
